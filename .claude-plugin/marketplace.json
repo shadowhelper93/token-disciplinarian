@@ -1,0 +1,10 @@
+{
+  "name": "token-disciplinarian",
+  "owner": {"name": "shadowhelper93"},
+  "plugins": [
+    {
+      "name": "token-disciplinarian",
+      "source": "./"
+    }
+  ]
+}
