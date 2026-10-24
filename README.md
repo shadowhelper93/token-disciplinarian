@@ -43,7 +43,7 @@ gemini extensions install https://github.com/shadowhelper93/token-disciplinarian
 
 ## Contents
 
-- `skills/token-disciplinarian/SKILL.md`: the token-efficiency protocol (shared by all three).
+- `skills/token-disciplinarian/SKILL.md`: the token-efficiency protocol (shared by every target).
 - `.claude-plugin/`: Claude Code plugin + marketplace manifests.
 - `.codex-plugin/plugin.json`, `.agents/plugins/marketplace.json`: Codex plugin + marketplace.
 - `gemini-extension.json`: Gemini CLI extension (loads the skill as context).
