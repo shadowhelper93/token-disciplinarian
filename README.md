@@ -4,6 +4,16 @@ Plugin for Claude Code, Codex CLI, and Gemini CLI. Enforces aggressive, zero-blo
 
 ## Install
 
+### Any agent, via npx
+Installs the skill into Claude Code, Codex, Gemini CLI, Cursor, and other agents supported by [`skills`](https://www.npmjs.com/package/skills):
+```
+npx skills add shadowhelper93/token-disciplinarian
+```
+Global, all agents, no prompts:
+```
+npx skills add shadowhelper93/token-disciplinarian -g --all
+```
+
 ### Claude Code
 ```
 /plugin marketplace add shadowhelper93/token-disciplinarian
