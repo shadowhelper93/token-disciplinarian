@@ -1,0 +1,14 @@
+{
+  "name": "token-disciplinarian",
+  "version": "1.1.0",
+  "description": "Enforces aggressive, zero-bloat token reduction rules across all operations.",
+  "author": {"name": "shadowhelper93"},
+  "repository": "https://github.com/shadowhelper93/token-disciplinarian",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Token Disciplinarian",
+    "shortDescription": "Ruthless token minimization",
+    "category": "Productivity",
+    "capabilities": ["Instructions"]
+  }
+}
