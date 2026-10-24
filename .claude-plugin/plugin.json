@@ -1,0 +1,6 @@
+{
+  "name": "token-disciplinarian",
+  "version": "1.0.0",
+  "description": "Enforces aggressive, zero-bloat token reduction rules across all operations.",
+  "author": {"name": "shadowhelper93"}
+}
