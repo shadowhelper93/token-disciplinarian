@@ -14,6 +14,12 @@ Global, all agents, no prompts:
 npx skills add shadowhelper93/token-disciplinarian -g --all
 ```
 
+### Antigravity (IDE and CLI)
+Antigravity does not load Gemini CLI extensions; install the skill directly:
+```
+npx skills add shadowhelper93/token-disciplinarian -g -y --agent antigravity antigravity-cli
+```
+
 ### Claude Code
 ```
 /plugin marketplace add shadowhelper93/token-disciplinarian
