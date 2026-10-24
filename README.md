@@ -1,6 +1,6 @@
 # token-disciplinarian
 
-Plugin for Claude Code, Codex CLI, and Gemini CLI. Enforces aggressive, zero-bloat token reduction rules: surgical file reading, strict terminal/log filtering, caveman-concise output, subagent delegation for exploration, and context-window hygiene.
+Plugin for Claude Code, Codex CLI, Gemini CLI, and Antigravity. Enforces aggressive, zero-bloat token reduction rules: surgical file reading, strict terminal/log filtering, caveman-concise output, subagent delegation for exploration, and context-window hygiene.
 
 ## Install
 
@@ -14,10 +14,14 @@ Global, all agents, no prompts:
 npx skills add shadowhelper93/token-disciplinarian -g --all
 ```
 
-### Antigravity (IDE and CLI)
-Antigravity does not load Gemini CLI extensions; install the skill directly:
+### Antigravity
+CLI (`agy`):
 ```
-npx skills add shadowhelper93/token-disciplinarian -g -y --agent antigravity antigravity-cli
+agy plugin install https://github.com/shadowhelper93/token-disciplinarian
+```
+Antigravity IDE (skill only):
+```
+npx skills add shadowhelper93/token-disciplinarian -g -y --agent antigravity
 ```
 
 ### Claude Code
@@ -43,3 +47,4 @@ gemini extensions install https://github.com/shadowhelper93/token-disciplinarian
 - `.claude-plugin/`: Claude Code plugin + marketplace manifests.
 - `.codex-plugin/plugin.json`, `.agents/plugins/marketplace.json`: Codex plugin + marketplace.
 - `gemini-extension.json`: Gemini CLI extension (loads the skill as context).
+- `.antigravity-plugin/plugin.json`: Antigravity CLI plugin.
