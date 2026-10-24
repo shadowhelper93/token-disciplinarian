@@ -1,10 +1,13 @@
 {
   "name": "token-disciplinarian",
-  "owner": {"name": "shadowhelper93"},
+  "owner": {
+    "name": "shadowhelper93"
+  },
   "plugins": [
     {
       "name": "token-disciplinarian",
       "source": "./"
     }
-  ]
+  ],
+  "description": "Token-reduction skill and output-filter hooks for Claude Code, Codex, Gemini CLI, and Antigravity."
 }
