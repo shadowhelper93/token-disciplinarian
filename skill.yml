@@ -1,0 +1,17 @@
+name: token-disciplinarian
+display_name: Token Disciplinarian
+version: 1.2.0
+description: Enforces aggressive, zero-bloat token reduction rules across all operations.
+author: shadowhelper93
+repository: https://github.com/shadowhelper93/token-disciplinarian
+license: MIT
+entrypoint: skills/token-disciplinarian/SKILL.md
+keywords:
+  - tokens
+  - context
+  - efficiency
+  - optimization
+hooks: hooks/hooks.json
+scripts:
+  wrapper: scripts/td-exec-wrapper.sh
+  pretool: hooks/td-pretool.sh
